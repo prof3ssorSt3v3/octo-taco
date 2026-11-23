@@ -10,7 +10,7 @@
   --purple-70: hsl(321 50% 70% / 1);
   --purple-90: hsl(321 50% 90% / 1);
 
-  --card-width: 300px;
+  --card-width: 400px;
 }
 *,
 *::after,
@@ -94,7 +94,7 @@ header {
 
 @keyframes slideleft {
   from {
-    left: 9ch;
+    left: 50%;
     right: 1rem;
   }
   50% {
@@ -103,6 +103,6 @@ header {
   }
   to {
     left: 1rem;
-    right: 9ch;
+    right: 50%;
   }
 }
